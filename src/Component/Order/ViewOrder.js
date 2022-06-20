@@ -45,7 +45,6 @@ class ViewOrder extends Component {
                     })
                }
           }
-          // let email = sessionStorage.getItem('userInfo').split(',')[1];
           const getData = setTimeout(() => {
                axios
                .get(`${url}`)
