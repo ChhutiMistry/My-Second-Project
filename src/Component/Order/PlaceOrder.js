@@ -27,14 +27,14 @@ class PlaceOrder extends Component {
           console.log(this.state)
           let obj = this.state;
           obj.service_name = `Registration`
-          // fetch(purl,{
-          //      method:'POST',
-          //      headers:{
-          //           'accept':'application/json',
-          //           'content-type':'application/json'
-          //      },
-          //      body:JSON.stringify(obj)
-          // })
+          fetch(purl,{
+               method:'POST',
+               headers:{
+                    'accept':'application/json',
+                    'content-type':'application/json'
+               },
+               body:JSON.stringify(obj)
+          })
           .then(console.log('order Added'))
      }
 
