@@ -24,9 +24,9 @@ class PlaceOrder extends Component {
      }
 
      checkout = () => {
-          // console.log(this.state)
-          // let obj = this.state;
-          // obj.service_name = `Registration`
+          console.log(this.state)
+          let obj = this.state;
+          obj.service_name = `Registration`
           // fetch(purl,{
           //      method:'POST',
           //      headers:{
