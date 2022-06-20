@@ -35,7 +35,7 @@ class ViewOrder extends Component {
                          'bank_name':queryp.split('&')[3].split('=')[1]
                     }
                     let id = queryp.split('&')[1].split('=')[1].split('_')[1]
-                    fetch(`${updateUrl}/${_id}`,{
+                    fetch(`${updateUrl}`,{
                          method:'PUT',
                          headers:{
                          'Accept':'application/json',
