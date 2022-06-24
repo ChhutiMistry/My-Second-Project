@@ -45,7 +45,7 @@ class Register extends Component {
                             <div className="row">
                                 <div className="form-group col-md-6 regbo">
                                     <label htmlFor="fname">
-                                        Name
+                                        First Name
                                     </label>
                                     <input id="fname" type="text" name="name" className="form-control"
                                     value={this.state.name} onChange={this.handleChange}/>
